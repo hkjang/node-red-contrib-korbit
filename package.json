@@ -1,0 +1,37 @@
+{
+  "name": "node-red-contrib-korbit",
+  "version": "1.0.0",
+  "description": "Node-RED node for korbit",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
+  },
+  "node-red": {
+    "nodes": {
+      "korbit": "node.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/hkjang/node-red-contrib-korbit/issues"
+  },
+  "homepage": "https://github.com/hkjang/node-red-contrib-korbit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/node-red-contrib-korbit.git"
+  },
+  "keywords": [
+    "node-red-contrib-contribgen",
+    "node-red",
+    "korbit",
+    "korbit api",
+    "코빗",
+    "암호화폐",
+    "korbit private api",
+    "korbit public api"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "querystring": "^0.2.1"
+  },
+  "license": "Apache-2.0"
+}
