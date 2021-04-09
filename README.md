@@ -15,7 +15,8 @@ command in your Node-RED user directory, typically `~/.node-red`
     npm install node-red-contrib-korbit
 
 ## Wrapper korbit  API  
-https://docs.korbit.com/docs
+- https://apidocs.korbit.co.kr/
+- For authentication, use the oauth2 modules(node-red-contrib-oauth2) downloaded from the palette.
 
 ## Sample parameters
 ```js
